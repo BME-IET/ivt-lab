@@ -17,7 +17,6 @@ public class GT4500 implements SpaceShip {
 
   public boolean fireLaser(FiringMode firingMode) {
     throw new UnsupportedOperationException();
-    return false;
   }
 
   /**
@@ -79,8 +78,6 @@ public class GT4500 implements SpaceShip {
       case ALL:
         // try to fire both of the torpedo stores
         throw new UnsupportedOperationException();
-
-        break;
     }
 
     return firingSuccess;
